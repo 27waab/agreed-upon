@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Cairo:slnt,wght@-11..11,200..1000&family=Fustat:wght@200..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    user-select: none;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70px;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+.infoProg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hadiths {
+    margin-top: 20px;
+}
+.box {
+    padding: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.box h1 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 2.7;
+    font-family: "Fustat", sans-serif;
+}
+.box .hadithInfoOldBook {
+    display: flex;
+}
+.box button {
+    display: block;
+}
